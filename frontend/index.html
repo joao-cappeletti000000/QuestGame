@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuestGame - O Motor de Conhecimento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- TELA INICIAL -->
+        <div id="telaInicio" class="tela ativa">
+            <div class="card-principal">
+                <h1>⚡ QuestGame</h1>
+                <h2>O Motor de Conhecimento</h2>
+                <p>Escolha um tema e responda perguntas!</p>
+                
+                <div class="form-entrada">
+                    <input type="text" id="nomeJogador" placeholder="Seu nome..." maxlength="20">
+                    <button onclick="iniciarJogo()" class="botao-principal">Iniciar</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- TELA DE SELEÇÃO DE TEMA -->
+        <div id="telaSelecaoTema" class="tela">
+            <div class="header-jogo">
+                <div class="info-jogador">
+                    <h3 id="nomeExibicao"></h3>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="label">Nível</span>
+                            <span id="nivelExibicao" class="valor">1</span>
+                        </div>
+                        <div class="stat">
+                            <span class="label">XP</span>
+                            <span id="xpExibicao" class="valor">0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-conteudo">
+                <h2>Escolha um Tema 📚</h2>
+                <div id="containerTemas" class="grid-temas"></div>
+            </div>
+        </div>
+
+        <!-- TELA DE JOGO -->
+        <div id="telaJogo" class="tela">
+            <div class="header-jogo">
+                <button onclick="voltarAoMenu()" class="botao-voltar">⬅ Voltar</button>
+                <div class="info-jogador">
+                    <h3 id="nomeExibicao2"></h3>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="label">Nível</span>
+                            <span id="nivelExibicao2" class="valor">1</span>
+                        </div>
+                        <div class="stat">
+                            <span class="label">XP</span>
+                            <span id="xpExibicao2" class="valor">0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-conteudo questao-card">
+                <div class="questao-info">
+                    <span class="tema-badge" id="temaBadge">Tema</span>
+                    <h2 id="enunciado">Carregando...</h2>
+                </div>
+
+                <div id="containerOpcoes" class="opcoes"></div>
+                <div id="mensagemResultado" class="mensagem-resultado"></div>
+
+                <button id="botaoResponder" onclick="enviarResposta()" class="botao-principal botao-responder">Responder</button>
+                <button id="botaoProxima" onclick="carregarNovaQuestao()" class="botao-secundario" style="display: none;">Próxima →</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

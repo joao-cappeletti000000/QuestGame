@@ -1,0 +1,21 @@
+tema,tipo,enunciado,opcoes_ou_na,resposta,dificuldade
+Python,multipla,"O que é Python?","Uma serpente|Uma linguagem de programação|Uma empresa de tecnologia|Uma rede social",B,1
+Python,multipla,"Qual é a sintaxe correta para criar uma lista em Python?","list = [1, 2, 3]|list = (1, 2, 3)|list = {1, 2, 3}|list = <1, 2, 3>",A,1
+Python,verdadeiro_falso,"Python é uma linguagem compilada.",F,2
+Python,multipla,"Qual função é usada para obter o comprimento de uma lista?","size()|len()|length()|count()",B,1
+Python,multipla,"Qual é a diferença principal entre listas e tuplas em Python?","Listas são mais rápidas|Tuplas são imutáveis|Listas usam mais memória|Não há diferença",B,2
+PHP,multipla,"O que significa PHP?","Personal Home Page|Preprocessor HyperText|PHP: Hypertext Preprocessor|Paginated HTML Page",C,1
+PHP,multipla,"Qual é a sintaxe correta para ecoar uma string em PHP?","echo 'Hello';|print 'Hello';|output 'Hello';|display 'Hello';",A,1
+PHP,verdadeiro_falso,"Em PHP, variáveis começam com o símbolo $.",V,1
+PHP,multipla,"Qual função é usada para contar elementos em um array PHP?","count()|size()|length()|sizeof()",A,1
+PHP,multipla,"Como você acessa um elemento específico de um array PHP?","array{0}|array[0]|array(0)|array->0",B,1
+Paradigmas,multipla,"O que é Programação Orientada a Objetos?","Um estilo de programação que usa objetos e classes|Uma forma de programar sem usar estruturas|Uma linguagem de programação|Um protocolo de internet",A,1
+Paradigmas,verdadeiro_falso,"Encapsulamento é um conceito de POO que protege os dados de acesso não autorizado.",V,1
+Paradigmas,multipla,"Qual é a relação entre classe e objeto?","São sinônimos|A classe é o molde e o objeto é a instância|O objeto é o molde e a classe é a instância|Não têm relação",B,2
+Paradigmas,verdadeiro_falso,"Herança permite que uma classe herde propriedades e métodos de outra classe.",V,1
+Paradigmas,multipla,"O que é Polimorfismo?","A capacidade de um objeto mudar de forma|A capacidade de um objeto responder a mesma mensagem de diferentes formas|A capacidade de um objeto ser imutável|A capacidade de um objeto ser serializado",B,2
+Dados,multipla,"Qual é o tipo de dado primitivo em Python que representa valores lógicos?","str|int|bool|list",C,1
+Dados,verdadeiro_falso,"Um dicionário em Python é uma estrutura de dados ordenada.",V,1
+Dados,multipla,"Qual operador é usado para concatenar strings em Python?","+|&|*|~",A,1
+Dados,multipla,"Qual é a diferença entre '=' e '==' em programação?","Não há diferença|'=' é atribuição e '==' é comparação|'=' é comparação e '==' é atribuição|'==' é apenas para números",B,1
+Dados,verdadeiro_falso,"Listas em Python são estruturas de dados mutáveis.",V,1
