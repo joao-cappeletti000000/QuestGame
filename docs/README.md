@@ -166,28 +166,4 @@ class QuestaoRespotaAberta(Questao):
     def validar_resposta(self, resposta_usuario):
         # Implementar validação
         pass
-```
-
-2. Adicione o tipo em `backend/motor_jogo.py`
-
-## 🏆 Avaliação
-
-Os alunos serão avaliados em:
-
-- ✓ **Código bem estruturado** (OOP)
-- ✓ **Funcionalidades implementadas** (todas as fases)
-- ✓ **Interface funcional** (HTML/CSS/JS)
-- ✓ **Documentação adequada** (Docstrings)
-- ✓ **Apresentação das funcionalidades**
-
-## 📄 Licença
-
-MIT License - Use livremente para fins educacionais
-
-## 👥 Autores
-
-Desenvolvido como WebQuest para aprendizagem de Programação Orientada a Objetos
-
----
-
-**Dúvidas?** Consulte os comentários no código-fonte de cada arquivo!
+``
